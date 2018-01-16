@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SessionStrage demo</title>
+ 
+<link rel="stylesheet" href="assets/css/main.css">
+ 
+<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script src="assets/js/main.js"></script>
+ 
+</head>
+<body>
+  <section class="section">
+    <div class="section__block section__block--scoped">
+      <h3>SessionStrageデモ</h3>                  
+      <fieldset class="fieldset fieldset--demo">
+        <div class="fieldset__wrapper">
+          <label>メールアドレス</label></br>              
+          <input id='user_mail' class="fieldset__input js__datepicker" type="text" placeholder="Try me&hellip;"></br></br>
+          <label>名前</label></br>            
+          <input id='user_name' class="fieldset__input js__datepicker" type="text" placeholder="Try me&hellip;"></br></br>
+          <button id="submit" class="fieldset__button button button--small">登録</button>
+          <button id="clear" class="fieldset__button button button--small">セッション解除</button>
+          <button id="load" class="fieldset__button button button--small">更新</button>                    
+        </div>    
+        <div id="result"></div>      <!-- ボタン押下の結果を表示する -->   
+      </fieldset>
+    </div>
+  </section>
+</body>
+</html>
